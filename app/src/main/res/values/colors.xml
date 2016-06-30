@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="splashBackground">#F4F4F4</color>
+    <color name="loginBackground">#F4F4F4</color>
+
+    <color name="dimgrey">#696969</color>
+    <!-- 暗灰色 -->
+    <color name="floralwhite">#FFFAF0</color>
+    <!-- 花白色 -->
+    <color name="gray">#808080</color>
+    <color name="light_gray">#55808080</color>
+    <color name="bg_color">#f1f1f1</color>
+    <color name="black">#000</color>
+    <!-- 灰色 -->
+    <color name="color_hei_8">#00000000</color>
+    <color name="transparent">@color/color_hei_8</color>
+    <color name="B_black">#ff000000</color>
+    <color name="B_black_50">#80000000</color>
+    <color name="B_black_05">#10000000</color>
+    <color name="B_black_10">#1f000000</color>
+    <color name="B_black_20">#2c000000</color>
+    <color name="B_black_30">#4c000000</color>
+    <color name="B_black_85">#d9000000</color>
+    <color name="B_black_70">#b6000000</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="white">#FFffffff</color>
+    <color name="white_cc">#ccffffff</color>
+    <color name="white_88">#88ffffff</color>
+    <color name="white_66">#66ffffff</color>
+    <color name="white_33">#33ffffff</color>
+    <color name="white_10">#10ffffff</color>
+    <color name="actionbar_title">#cfcfcf</color>
+    <color name="actionbar_background_start">#00CD2626</color>
+    <color name="actionbar_background_end">#00EB1818</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+    <color name="color_divide_line">#c4c4c4</color>
+    <!-- 趋势图背景颜色 -->
+    <color name="color_trend_bg">#1fbba6</color>
+    <color name="color_page_title">#ffffffff</color>
+    <color name="theme_select">#33ffffff</color>
+    <color name="semi_transparent">#7f000000</color>
+    <color name="semi_transparent_w">#7fffffff</color>
+    <color name="text_shadow_color">#66000000</color>
+    <color name="bar">#C0202020</color>
+    <color name="divide_color">#e2e2e2</color>
+    <color name="divide_color_black30">#4c000000</color>
+    <color name="biz_plugin_weather_text1">#ff2f2f2f</color>
+
+    <!-- 城市标题颜色 -->
+
+
+    <color name="color_gray">#a6a6a6</color>
+    <color name="tab_text_color_normal">#cecece</color>
+    <color name="tab_text_color_pressed">#139cff</color>
+    <color name="action_bar_bg100">#207b9a</color>
+    <color name="action_bar_bg88">#ff207b9a</color>
+    <color name="main_bg_color">#f3f6f8</color>
+
+    <color name="blue">#0000ff</color>
+
+    <color name="page_unselecte_color">#849ab5</color>
+    <!-- 蓝色 -->
+
+    <drawable name="paget_unselect_bg">#00000000</drawable>
+
+
+    <color name="hotspot_title_text_color">#19b4f3</color>
+    <color name="color_common_bg">#2c4a72</color>
+    <!-- 折线图颜色 -->
+    <color name="color_white_tread_bg">#ccffffff</color>
+    <!-- 折线的颜色 -->
+    <color name="color_tread_line_bg">#3ae44e</color>
+    <!-- 折线图网格颜色 -->
+    <color name="color_white66_tread_bg">#66ffffff</color>
+    <!-- 折线图边框的颜色 -->
+    <color name="color_white88_tread_bg">#88ffffff</color>
+    <color name="color_hi_temp_line">#ffc600 </color>
+    <color name="color_low_temp_line">#00deff</color>
+    <color name="color_24hour_title">#2e5b96</color>
+    <color name="color_24hour_line_bg">#243c5d</color>
+    <!-- 热点小标题 -->
+    <color name="color_hot_station_title_bg">#283443</color>
+
+    <color name="color_inflater_bg_1">#1e3859</color>
+    <color name="color_main_search_button_bg">#0091ff</color>
+    <color name="color_main_below_bg">#e2f2ff</color>
+    <color name="color_nain_text_color">#65b1ff</color>
+    <color name="color_main_text_blue">#0091ff</color>
+    <color name="color_main_text">#ff761a</color>
+    <color name="color_main_text_gray">#cccccc</color>
+    <color name="color_text_red">#fc563d</color>
+    <color name="color_search_title">#333333</color>
+    <color name="color_search_line">#dfdfdf</color>
+    <color name="color_search_error_bg">#e9e9e9</color>
+    <color name="color_enterprise_bg">#f8f8f8</color>
+    <color name="color_bg_green">#91eaa6</color>
+    <color name="color_blue_bg">#33a7ff</color>
+    <color name="color_city_name">#ffffff</color>
+    <color name="color_gray666">#666666</color>
+    <color name="color_gray999">#999999</color>
+    <color name="color_main_bottem_line">#d0e4f3</color>
+    <color name="color_year_text">#b3b3b3</color>
+    <color name="color_job_green_text">#72e48d</color>
+    <color name="color_job_blue_text">#4fb3ff</color>
+    <color name="color_job_gray_text">#73c3ff</color>
+    <color name="color_blue">#33a7ff</color>
+    <color name="color_traffic_good">#48dc6b</color>
+    <color name="color_well_located">#6a71e5</color>
+    <color name="color_high_salary">#ffd200</color>
+    <color name="color_holiday_more">#ff4966</color>
+    <color name="color_larger_scale">#2cbae7</color>
+    <color name="color_praise">#ffa500</color>
+    <color name="color_tread">#9fa0a4</color>
+    <color name="color_hot">#ff5534</color>
+    <color name="micro_will_bottom_text_bg">#ffece9</color>
+    <color name="color_gray_f8">#f8f8f8</color>
+
+    <color name="suggesed_reading_title_bg">#fda428</color>
+
+
+    <color name="green_500">#259b24</color>
+    <color name="green_300">#42bd41</color>
+    <color name="green_200">#72d572</color>
+</resources>

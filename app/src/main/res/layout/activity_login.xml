@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_gray_f8"
+              android:fitsSystemWindows="false"
+              android:orientation="vertical"
+              android:visibility="invisible"
+>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_search_line"
+                android:visibility="invisible"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/view_margin_20"
+                    android:layout_marginRight="@dimen/view_margin_20"
+                    android:layout_marginTop="@dimen/view_margin_20"
+                    android:gravity="center_vertical"
+                    android:text="设置"
+                    android:textColor="@color/color_gray999"
+                    android:textSize="14sp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/view_margin_20"
+                    android:layout_marginRight="@dimen/view_margin_20"
+                    android:layout_marginTop="@dimen/view_padding_10"
+                    android:background="@drawable/corners_bg"
+                    android:orientation="vertical">
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_search_line"/>
+
+                    <EditText
+                        android:id="@+id/ip_edittext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/view_padding"
+                        android:layout_marginRight="@dimen/view_padding"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="请输入服务器ip"
+                        android:textColor="@color/black"
+                        android:paddingLeft="@dimen/view_padding_10"
+                        android:textColorHint="@color/gray"
+                        android:textSize="12sp"/>
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_search_line"/>
+
+                    <EditText
+                        android:id="@+id/user_name_edittext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="@dimen/view_padding"
+                        android:layout_marginRight="@dimen/view_padding"
+                        android:layout_marginTop="@dimen/view_padding"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="请输入用户名"
+                        android:paddingLeft="@dimen/view_padding_10"
+                        android:textColorHint="@color/gray"
+                        android:textSize="12sp"/>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_search_line"/>
+
+                    <EditText
+                        android:id="@+id/user_password_edittext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="@dimen/view_padding"
+                        android:layout_marginLeft="@dimen/view_padding"
+                        android:layout_marginRight="@dimen/view_padding"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="请输入密码"
+                        android:textColor="@color/black"
+                        android:inputType="textPassword"
+                        android:paddingLeft="@dimen/view_padding_10"
+                        android:textColorHint="@color/gray"
+                        android:textSize="12sp"/>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_search_line"/>
+
+                    <EditText
+                        android:id="@+id/dir_edittext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="@dimen/view_padding"
+                        android:layout_marginLeft="@dimen/view_padding"
+                        android:layout_marginRight="@dimen/view_padding"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="请输入服务器目录"
+                        android:textColor="@color/black"
+                        android:paddingLeft="@dimen/view_padding_10"
+                        android:textColorHint="@color/gray"
+                        android:textSize="12sp"/>
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/color_search_line"/>
+
+                    <EditText
+                        android:id="@+id/port_edittext"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginBottom="@dimen/view_padding"
+                        android:layout_marginLeft="@dimen/view_padding"
+                        android:layout_marginRight="@dimen/view_padding"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:hint="请输入服务器端口号"
+                        android:paddingLeft="@dimen/view_padding_10"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="@dimen/view_padding_10"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/login_button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/view_margin_20"
+                        android:layout_marginRight="@dimen/view_margin_20"
+                        android:layout_weight="1"
+                        android:background="@drawable/corners_bg_colorprimary"
+                        android:gravity="center"
+                        android:text="确定"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:visibility="gone"
+        >
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
