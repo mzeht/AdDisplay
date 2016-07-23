@@ -383,7 +383,7 @@ public class DisplayActivity extends Activity {
             String file_path = dbmodel.getString("file_Path");
             long file_Size = dbmodel.getLong("file_Size");
             pathList.add(file_path);
-            Log.i("需要播放:", " file_Nanme<<" + file_Nanme + " file_Size<<" + file_Size + " file_path<<" + file_path);
+            Log.i("需要播放:", " file_Name<<" + file_Nanme + " file_Size<<" + file_Size + " file_path<<" + file_path);
         }
         mp4Files.clear();
         for (String path : pathList) {
